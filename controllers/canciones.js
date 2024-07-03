@@ -60,6 +60,8 @@ const createCancion = async (req, res) => {
         }
     */
     // (Reproducciones se inicializa en 0)
+    const {nombre, album, duracion} = body.id
+    await conn.query("INSERT INTO canciones ")
 };
 
 const updateCancion = async (req, res) => {
